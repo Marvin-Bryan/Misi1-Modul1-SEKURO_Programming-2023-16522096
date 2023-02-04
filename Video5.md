@@ -89,3 +89,5 @@ Mengembalikan perubahan yang terjadi pada file tertentu
     
     $ git checkout <5 digit pertama commit hashnya> -- <nama file yang akan dikembalikan>
 
+## Bukti Screenshot Git-Bash:
+<a href="https://ibb.co/Bj5fn0m"><img src="https://i.ibb.co/k0sGmNp/image.png" alt="image" border="0"></a>
