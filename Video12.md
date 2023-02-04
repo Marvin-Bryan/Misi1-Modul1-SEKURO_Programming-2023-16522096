@@ -3,3 +3,6 @@ jadi gini, halo ges
 - 1+1 = 2
     
     oK
+    asemalalalala
+
+[]acumalaka
