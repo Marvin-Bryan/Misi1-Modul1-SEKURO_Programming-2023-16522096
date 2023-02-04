@@ -1,1 +1,1 @@
-Ndak tau
+Teksnya diubah bentar
