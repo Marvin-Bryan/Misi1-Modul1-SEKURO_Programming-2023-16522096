@@ -40,3 +40,51 @@ Cara mengubah folder menjadi Git adalah dengan command git init, folder langsung
 
 <a href="https://ibb.co/yNb27c6"><img src="https://i.ibb.co/10wcjtr/image.png" alt="image" border="0"></a>
 
+Untuk melihat status repo, kita dapat menggunakan:
+
+    $ git status
+
+Untuk melakukan tracking (masukkan file ke staging area), kita dapat menggunakan:
+
+    $ git add <file(s)>
+
+Ganti nama file dengan . untuk memasukkan banyak folder sekaligus.
+
+Saat kita menulis git commit untuk pertama kali, kita perlu mengisikan data nama dan email dengan:
+    
+    $ git config --global user.email "email"
+    $ git config --global user.name "Nama"
+
+
+Cara melakukan commit di git adalah dengan:
+    
+    $ git commit -m "Pesan yang ingin diberikan"
+
+Untuk mengecek file telah dicommit kita menggunakan:
+    
+    $ git status
+
+Untuk mengecek history kita dapat menggunakan:
+    
+    $ git log
+
+Untuk mengecek 3 history commit terakhir:
+    
+    $ git log -3
+
+Untuk mengecek commit spesifik untuk file tertentu:
+    
+    $ git log -- <nama file yang dicari>
+
+<p>&nbsp;</p>
+
+# Checkout
+Checkout adalah mengembalikan kode dari history yang telah terhapus/termodifikasi ke staging area.
+
+Checkout ke sebuah keadaan
+    
+    $ git checkout <5 digit pertama commit hashnya>
+
+Mengembalikan perubahan yang terjadi pada file tertentu
+    
+    $ git checkout <5 digit pertama commit hashnya> -- <nama file yang akan dikembalikan>
