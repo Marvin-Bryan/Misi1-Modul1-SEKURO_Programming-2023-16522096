@@ -28,6 +28,8 @@ Membuat alias dapat dilakukan untuk mempersingkat kita menampilkan history dalam
 
     $ alias graph="git log --all --decorate --oneline -- graph"
 
+Alias adalah command yang sementara sampai komputer dimatikan
+
 Cara pindah branch:
 
     $ git checkout <nama branch yang dituju>
@@ -40,7 +42,7 @@ Setelah add dan commit, perubahan hanya terjadi di nama branch yang dimasukkan.
 
 Cara menggunakan merge adalah dengan:
 
-    $ git merge <nama branch yang akan dimerge dengan branch sekarang>
+    $ git merge <nama branch yang akan dimerge>
 
 Cara menghapus branch:
 
@@ -62,3 +64,10 @@ Ada beberapa jenis merge:
 - Three-way Merge/Merge commit: Terjadi ketika branch tidak memiliki direct path
 
 ### Cara untuk Fast Forward merge dan Three-way Merge sama.
+
+<p>&nbsp;</p>
+
+### Bukti screenshot percobaan di Git-Bash:
+
+<a href="https://ibb.co/qryybLc"><img src="https://i.ibb.co/gRjjsbf/image.png" alt="image" border="0"></a>
+

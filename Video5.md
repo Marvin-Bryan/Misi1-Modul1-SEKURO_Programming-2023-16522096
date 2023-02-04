@@ -88,3 +88,4 @@ Checkout ke sebuah keadaan
 Mengembalikan perubahan yang terjadi pada file tertentu
     
     $ git checkout <5 digit pertama commit hashnya> -- <nama file yang akan dikembalikan>
+
